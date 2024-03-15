@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8f9c86f-12d5-46c6-aad5-c63cb6be828e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/games.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/Destructo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/FlyingBoxes$Box$List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/FlyingBoxes$Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/FlyingBoxes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/G$V.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/G.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/Sokoban$Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/Sokoban.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/Tetris$Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/Tetris.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/Window$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/games/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/snake_feb26/G$V.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/snake_feb26/G.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/snake_feb26/I$Show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/snake_feb26/I.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/snake_feb26/Snake$Cell$List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/snake_feb26/Snake$Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/snake_feb26/Snake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/snake_feb26/Window$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunGames/snake_feb26/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/Destructo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/FlyingBoxes$Box$List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/FlyingBoxes$Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/FlyingBoxes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/G$V.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/G.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/Sokoban$Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/Sokoban.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/Tetris$Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/Tetris.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/Window$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/games/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/snake_feb26/G$V.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/snake_feb26/G.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/snake_feb26/I$Show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/snake_feb26/I.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/snake_feb26/Snake$Cell$List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/snake_feb26/Snake$Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/snake_feb26/Snake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/snake_feb26/Window$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavawithMarlin_Games_2024Spring (2)/snake_feb26/Window.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dX2Utt1UaiMKaDJ3GQyOKkNafQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Snake.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sokoban.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tetris.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alisonlai/Desktop/CS/git-alison/games&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Tetris">
+    <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snake_feb26.Snake" />
+      <module name="games" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snake_feb26.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sokoban" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="games.Sokoban" />
+      <module name="games" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="games.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tetris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="games.Tetris" />
+      <module name="games" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="games.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="games" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="games" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tetris" />
+        <item itemvalue="Application.Sokoban" />
+        <item itemvalue="Application.Snake" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8f9c86f-12d5-46c6-aad5-c63cb6be828e" name="Changes" comment="" />
+      <created>1710140121739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710140121739</updated>
+      <workItem from="1710140122801" duration="9424000" />
+      <workItem from="1710489507404" duration="357000" />
+      <workItem from="1710490571055" duration="1372000" />
+      <workItem from="1710492135840" duration="740000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
