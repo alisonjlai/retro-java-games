@@ -11,6 +11,7 @@ games/out/
 .settings
 .springBeans
 .sts4-cache
+.xml
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
@@ -26,4 +27,4 @@ bin/
 .vscode/
 
 ### Mac OS ###
-.DS_Store
+.DS_Storegames.iml
