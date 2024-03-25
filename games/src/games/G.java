@@ -1,9 +1,13 @@
 package games;
 
-import static games.Destructo.RANDOM;
+import javax.swing.*;
 
-import java.awt.Color;
-import java.awt.Graphics;
+import static games.Destructo.RANDOM;
+import static games.Destructo.color;
+
+import java.awt.*;
+import java.sql.Array;
+import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -35,25 +39,26 @@ public class G {
 
   //---------------------------------VS---------------------------------//
   // Vector, size
-//  public static class VS{
-//    public V loc, size;
-//    public VS(int x, int y, int w, int h){
-//      loc = new V(x, y);
-//      size = new V(w, h);
-//    }
-//    public Boolean contains(int x, int y){
-//      return x > loc.x && y > loc.y && x < (loc.x + size.x) && y < (loc.y + size.y);
-//    }
-//    public void fill(Graphics g, Color c){
-//      g.setColor(c);
-//      g.fillRect(loc.x, loc.y, size.x, size.y);
-//    }
-//    public void draw(Graphics g, Color c){
-//      g.setColor(c);
-//      g.drawRect(loc.x, loc.y, size.x, size.y);
-//    }
+  public static class VS{
+    public V loc, size;
+    public VS(int x, int y, int w, int h){
+      loc = new V(x, y);
+      size = new V(w, h);
+    }
+    public Boolean contains(int x, int y){
+      return x > loc.x && y > loc.y && x < (loc.x + size.x) && y < (loc.y + size.y);
+    }
+    public void fill(Graphics g, Color c){
+      g.setColor(c);
+      g.fillRect(loc.x, loc.y, size.x, size.y);
+    }
+    public void draw(Graphics g, Color c){
+      g.setColor(c);
+      g.drawRect(loc.x, loc.y, size.x, size.y);
+    }
 //    public static void fillBackground(Graphics g){backgroundVS.fill(g, WHITE);}
-//  }
+  }
+
   public static void fillBack(Graphics g){
     g.setColor(Color.white);
     g.fillRect(0,0,5000,5000);
@@ -76,4 +81,59 @@ public class G {
     }
   }
 
+  //---------------------------------Button---------------------------------//
+  public static abstract class Button {
+    public abstract void act();
+    public boolean enabled = true, bordered = true;
+    public String text = "";
+    public VS vs = new VS(0, 0, 0, 0);
+    public int dyText = 0;
+    public LookAndFeel lnf = new LookAndFeel();
+
+    public Button(Button.List list, String str) {
+      if (list != null) {list.add(this);}
+      text = str;
+    }
+    public void show(Graphics g) {
+      if (vs.size.x == 0) {setSize(g);}
+      vs.fill(g, lnf.back);
+      if (bordered) {vs.draw(g, lnf.border);}
+      g.setColor(enabled? lnf.text : lnf.disabled);
+      g.drawString(text, vs.loc.x + lnf.M.x, vs.loc.y + dyText);
+    }
+
+    public void setSize(Graphics g) {
+      FontMetrics fm = g.getFontMetrics();
+      vs.size.set(2 * lnf.M.x + fm.stringWidth(text), 2 * lnf.M.y + fm.getHeight());
+      dyText = fm.getAscent() + lnf.M.y;
+    }
+    public boolean hit(int x, int y) {return vs.contains(x, y);}
+
+    public void click() {if (enabled) {act();}}
+    public void set(int x, int y) {vs.loc.set(x, y);}
+
+    //--------------------------LookAndFeel-----------------------//
+    public static class LookAndFeel {
+      public static Color text = Color.black, back = Color.white,
+                          border = Color.black, disabled = Color.GRAY;
+      public static V M = new V(5, 3);
+    }
+
+    //--------------------------Button.list-----------------------//
+    public static class List extends ArrayList<Button> {
+      public Button hit(int x, int y) {
+        for (Button b:this) {
+          if (b.hit(x,y)) {return b;}
+        }
+        return null;
+      }
+      public boolean clicked(int x, int y) {
+        Button b = hit(x, y);
+        if (b == null) {return false;}
+        b.click();
+        return true;
+      }
+      public void show(Graphics g) {for (Button b : this) {b.show(g);}}
+    }
+  }
 }
